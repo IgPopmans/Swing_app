@@ -14,6 +14,7 @@ public class Main {
         jf.addMouseListener(new SimpleClickListener());
         jf.setVisible(true);
 
+
     }
 
 }
@@ -36,5 +37,6 @@ class SimpleClickListener implements MouseListener {
 
     @Override
     public void mouseReleased(MouseEvent e) {}
+
 
 }
