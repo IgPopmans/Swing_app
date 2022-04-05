@@ -27,7 +27,9 @@ class SimpleClickListener implements MouseListener {
     }
 
     @Override
-    public void mouseEntered(MouseEvent e) {}
+    public void mouseEntered(MouseEvent e) {
+        System.out.println("23");
+    }
 
     @Override
     public void mouseExited(MouseEvent e) {}
